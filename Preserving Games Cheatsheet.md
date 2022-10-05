@@ -24,3 +24,5 @@ $ diskutil unmountDisk /dev/disk3
 $ cdrdao read-cd --datafile image.bin --driver generic-mmc:0x20000 --read-raw image.toc
 $ toc2cue image.toc image.cue
 ```
+
+Verify MD5 hashes of backups on redump.org
