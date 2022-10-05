@@ -3,7 +3,13 @@ CD-based games
 MacOS
 
 As ISO
-Disk Utility
+Use Disk Utility
+Or
+```
+drutil status
+diskutil unmount disk4
+dd if=/dev/disk4 of=~/Desktop/Title\ Of\ Game.iso bs=2048
+```
 
 As CUE/BIN - useful for mixed media discs
 Install MacPorts if not already installed
