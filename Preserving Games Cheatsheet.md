@@ -4,7 +4,7 @@ MacOS
 
 As ISO
 Use Disk Utility
-Or
+Or [source](https://emulationonmac.wordpress.com/2010/11/05/preserving-sony-playstation-1-games/)
 ```
 drutil status
 diskutil unmount disk4
