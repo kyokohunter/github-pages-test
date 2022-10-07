@@ -1,5 +1,13 @@
 # Backup and play CD-based games with MacOS
 
+# Identify CD mode
+[Source](https://www.bitsgalore.org/2015/11/13/preserving-optical-media-from-the-command-line)
+Cd-info Part of GNU libcdio package
+```
+cd-info /dev/disk4
+```
+Check CD analysis report for mixed-mode CD
+
 ## Backup CD as ISO
 Use Disk Utility
 Or [source](https://emulationonmac.wordpress.com/2010/11/05/preserving-sony-playstation-1-games/)
@@ -24,8 +32,8 @@ $ cdrdao read-cd --datafile image.bin --driver generic-mmc:0x20000 --read-raw im
 $ toc2cue image.toc image.cue
 ```
 
-##Checksums and hashes
+## Checksums and hashes
 Verify MD5 hashes of backups on redump.org
 
-##troubleshooting
+## troubleshooting
 Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
