@@ -26,3 +26,5 @@ $ toc2cue image.toc image.cue
 ```
 
 Verify MD5 hashes of backups on redump.org
+
+Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
