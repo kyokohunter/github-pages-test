@@ -1,8 +1,6 @@
-CD-based games
+# Backup and play CD-based games with MacOS
 
-MacOS
-
-As ISO
+## Backup CD as ISO
 Use Disk Utility
 Or [source](https://emulationonmac.wordpress.com/2010/11/05/preserving-sony-playstation-1-games/)
 ```
@@ -11,7 +9,8 @@ diskutil unmount disk4
 dd if=/dev/disk4 of=~/Desktop/Title\ Of\ Game.iso bs=2048
 ```
 
-As CUE/BIN - useful for mixed media discs
+## Backup CD as CUE/BIN
+Useful for mixed media discs
 Install MacPorts if not already installed
 Install cdrdao
 ```
@@ -25,6 +24,8 @@ $ cdrdao read-cd --datafile image.bin --driver generic-mmc:0x20000 --read-raw im
 $ toc2cue image.toc image.cue
 ```
 
+##Checksums and hashes
 Verify MD5 hashes of backups on redump.org
 
+##troubleshooting
 Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
