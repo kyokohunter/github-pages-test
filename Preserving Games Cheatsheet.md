@@ -32,6 +32,10 @@ $ cdrdao read-cd --datafile image.bin --driver generic-mmc:0x20000 --read-raw im
 $ toc2cue image.toc image.cue
 ```
 
+Extract data to ISO and audio to WAV [source](https://www.bitsgalore.org/2015/11/13/preserving-optical-media-from-the-command-line)
+```
+bchunk -s -w toolstales.bin toolstales.cue toolstales
+```
 ## Checksums and hashes
 Verify MD5 hashes of backups on redump.org
 
