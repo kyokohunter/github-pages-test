@@ -17,7 +17,7 @@ Install cdrdao
 ```
 sudo port install cdrdao
 ```
-Backup CD using cdrdao
+Backup CD using cdrdao [source](https://emulationonmac.wordpress.com/2015/07/26/preserving-cd-and-dvd-based-console-games-pt-3-the-bin-cue-format/)
 ```
 $ diskutil list
 $ diskutil unmountDisk /dev/disk3
