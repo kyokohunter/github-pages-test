@@ -51,7 +51,7 @@ MD5 checksum
 ```
 md5 /path/to/file
 ```
-[Source
+[Source](https://pokealeaf.wordpress.com/2012/03/27/crc32-checksums-on-mac-osx/)
 
 ## troubleshooting
 Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
