@@ -39,5 +39,18 @@ bchunk -s -w toolstales.bin toolstales.cue toolstales
 ## Checksums and hashes
 Verify MD5 hashes of backups on redump.org
 
+Hexadecimal CRC32 checksum
+```
+$ crc32 /path/to/file
+```
+Decimal CRC32 checksum
+```
+cksum -o3 /path/to/file
+```
+MD5 checksum
+```
+md5 /path/to/file
+```
+
 ## troubleshooting
 Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
