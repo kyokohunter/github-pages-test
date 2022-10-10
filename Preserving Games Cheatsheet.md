@@ -1,6 +1,6 @@
 # Backup and play CD-based games with MacOS
 
-# Identify CD mode
+## Identify CD mode
 [Source](https://www.bitsgalore.org/2015/11/13/preserving-optical-media-from-the-command-line)
 Cd-info Part of GNU libcdio package
 ```
@@ -53,5 +53,8 @@ md5 /path/to/file
 ```
 [Source](https://pokealeaf.wordpress.com/2012/03/27/crc32-checksums-on-mac-osx/)
 
-## troubleshooting
+## Playing on MISTer
+### ao486
 Can't install on MS-DOS? Try installing in DOSBox and copy files to Mister
+### PSX
+Some PAL games are protected with Libcrypt and need an SBI file to play. SBI files can be found on Redump.org on their respective game pages. SBI file name must match the ISO or CUE/BIN image file names.
